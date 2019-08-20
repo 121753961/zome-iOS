@@ -1,0 +1,77 @@
+//
+//  zome-prefix.pch
+//  zome-iOS
+//
+//  Created by CFW on 2017/11/26.
+//  Copyright © 2017年 KunagBing. All rights reserved.
+//
+
+#ifndef zome_prefix_pch
+#define zome_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* zome_prefix_pch */
+
+#import "ZMImport.h"
+#import "ZMAPI.h"
+#import "ZMHttpTool.h"
+
+#define GIDSignInClientID @"169120406681-k4ab8shta3fckct37lsc57142glsc6p2.apps.googleusercontent.com"
+#define GiDSignInKey @"com.googleusercontent.apps.169120406681-k4ab8shta3fckct37lsc57142glsc6p2"
+#define GoogleMapKey @"AIzaSyD99ezC5szInKJmMN5JKdH9G2SWvmVb__M"
+#define GooglePlacesKey @"AIzaSyCLJUmKWVLWGnzD6Gg-ERK0qvnZTdhwNBk"
+//#define GooglePlacesKey @"AIzaSyCLJUmKWVLWGnzD6Gg-ERK0qvnZTdhwNBk"
+#define BugtagsKey @"4761262e9b93da669c35b8c351595ea7"
+
+#define ApplePayMerchantIdentifier @"merchant.com.zome.carpool.0735"
+
+
+#define FacebookKey @"1814185992206980"
+
+#define kStripePublishableKey @"pk_test_wqLHHTpzeZ36JlD5GeVvR5zm"
+
+#ifdef DEBUG
+    // test
+//    #define kAPIHost @"http://18.221.241.182:8080"
+    #define kAPIHost @"http://zomedev.us-east-1.elasticbeanstalk.com"
+    // 国内的接口
+//    #define kAPIHost @"http://112.80.55.150:9080"
+#else
+    #define kAPIHost @"http://zomedev.us-east-1.elasticbeanstalk.com"
+//    #define kAPIHost @"http://18.221.241.182:8080"
+#endif
+
+// 判断设备
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+// 获得RGB颜色
+#define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+// 颜色和透明度设置
+#define kRgba(r,g,b,a) [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a]
+
+// 随机色
+#define kRandomColor kColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+//是否为空或是[NSNull null]
+#define NotNilAndNull(_ref)  (((_ref) != nil) && (![(_ref) isEqual:[NSNull null]]))
+#define IsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
+
+//字符串是否为空
+#define IsStrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref)isEqualToString:@""]))
+//数组是否为空
+#define IsArrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0))
+
+// 弱引用
+#define BJWeakSelf __weak typeof(self) weakSelf = self;
+
+// 自定义Log
+#ifdef DEBUG
+#define ZMLog(...) NSLog(__VA_ARGS__)
+#else
+#define ZMLog(...)
+#endif

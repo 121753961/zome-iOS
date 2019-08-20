@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  zome-iOS
+
+  Created by CFW on 2017/12/11.
+  Copyright © 2017年 KunagBing. All rights reserved.
+*/
+
+"LOGIN_SUCCESS" = "登录成功";
+
+"LocationServiceMsg" = "定位服务未开启";
+
+"LocationServiceSubMsg" = "请在系统设置中开启服务";
+
+"Setting" = "去设置";

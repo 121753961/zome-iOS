@@ -1,0 +1,288 @@
+
+/* Class = "UILabel"; text = "Please enter your registered email, and we will send an email to reset your password."; ObjectID = "0a7-2y-8Bo"; */
+"0a7-2y-8Bo.text" = "Please enter your registered email, and we will send an email to reset your password.";
+
+/* Class = "UILabel"; text = "Verification Code"; ObjectID = "2At-NM-RCz"; */
+"2At-NM-RCz.text" = "Verification Code";
+
+/* Class = "UITextField"; placeholder = "Select your date of birth"; ObjectID = "4oZ-H5-wzM"; */
+"4oZ-H5-wzM.placeholder" = "Select your date of birth";
+
+/* Class = "UIButton"; normalTitle = "CREATE A ZOME ACCOUNT"; ObjectID = "5t6-Gi-Sz5"; */
+"5t6-Gi-Sz5.normalTitle" = "CREATE A ZOME ACCOUNT";
+
+/* Class = "UILabel"; text = "LICENSE STATE"; ObjectID = "5tP-Ql-Rhd"; */
+"5tP-Ql-Rhd.text" = "LICENSE STATE";
+
+/* Class = "UILabel"; text = "PHONE"; ObjectID = "6Ec-oz-6uS"; */
+"6Ec-oz-6uS.text" = "PHONE";
+
+/* Class = "UITextField"; placeholder = "Enter password"; ObjectID = "6UT-ZU-dxu"; */
+"6UT-ZU-dxu.placeholder" = "Enter password";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6gr-jy-UFT"; */
+"6gr-jy-UFT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "For secure purposes, please use the exact information that shows on your driver lisence.  "; ObjectID = "6l9-hL-BkM"; */
+"6l9-hL-BkM.text" = "For secure purposes, please use the exact information that shows on your driver lisence.  ";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "6yp-qu-u2R"; */
+"6yp-qu-u2R.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "Continue With"; ObjectID = "7nc-EE-awJ"; */
+"7nc-EE-awJ.text" = "Continue With";
+
+/* Class = "UILabel"; text = "Profile Picture"; ObjectID = "94x-8M-TNE"; */
+"94x-8M-TNE.text" = "Profile Picture";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BQd-Zq-NuS"; */
+"BQd-Zq-NuS.text" = "Label";
+
+/* Class = "UILabel"; text = "PLATE NUMBER"; ObjectID = "Chg-ch-6Yw"; */
+"Chg-ch-6Yw.text" = "PLATE NUMBER";
+
+/* Class = "UITextField"; placeholder = "Enter password"; ObjectID = "DBU-d2-LMe"; */
+"DBU-d2-LMe.placeholder" = "Enter password";
+
+/* Class = "UILabel"; text = "Backround Check Disclosure And Authorization"; ObjectID = "DEe-w6-BAo"; */
+"DEe-w6-BAo.text" = "Backround Check Disclosure And Authorization";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "E84-Mw-Zcu"; */
+"E84-Mw-Zcu.normalTitle" = "Sign in";
+
+/* Class = "UILabel"; text = "MODEL"; ObjectID = "ETv-bc-lND"; */
+"ETv-bc-lND.text" = "MODEL";
+
+/* Class = "UILabel"; text = "and"; ObjectID = "Fas-xQ-X5F"; */
+"Fas-xQ-X5F.text" = "and";
+
+/* Class = "UILabel"; text = "Google"; ObjectID = "FpL-H1-xEl"; */
+"FpL-H1-xEl.text" = "Google";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "FvT-2G-AR2"; */
+"FvT-2G-AR2.normalTitle" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Select vehicle body type"; ObjectID = "GBM-UR-AOD"; */
+"GBM-UR-AOD.placeholder" = "Select vehicle body type";
+
+/* Class = "UILabel"; text = "By signing up you indicate that you have read and agree "; ObjectID = "GWq-lT-z5Z"; */
+"GWq-lT-z5Z.text" = "By signing up you indicate that you have read and agree ";
+
+/* Class = "UILabel"; text = "PASSWORD"; ObjectID = "GwV-d5-lJa"; */
+"GwV-d5-lJa.text" = "PASSWORD";
+
+/* Class = "UILabel"; text = "YOUR SSN"; ObjectID = "Hrv-V9-wSM"; */
+"Hrv-V9-wSM.text" = "YOUR SSN";
+
+/* Class = "UITextField"; placeholder = "Enter phone number"; ObjectID = "IwQ-Ed-R8i"; */
+"IwQ-Ed-R8i.placeholder" = "Phone Number";
+
+/* Class = "UILabel"; text = "to the"; ObjectID = "Ix7-Oe-oGn"; */
+"Ix7-Oe-oGn.text" = "to the";
+
+/* Class = "UILabel"; text = "LAST NAME"; ObjectID = "J4P-I6-eVl"; */
+"J4P-I6-eVl.text" = "LAST NAME";
+
+/* Class = "UILabel"; text = "We have sent an email to you, please check\n"; ObjectID = "Jn5-sf-OW6"; */
+"Jn5-sf-OW6.text" = "We have sent an email to you, please check\n";
+
+/* Class = "UITextField"; placeholder = "Enter year of vehicle"; ObjectID = "KKL-fU-l4N"; */
+"KKL-fU-l4N.placeholder" = "Enter year of vehicle";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "KPp-Ze-NiZ"; */
+"KPp-Ze-NiZ.text" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "KfH-LP-a95"; */
+"KfH-LP-a95.normalTitle" = "Send";
+
+/* Class = "UILabel"; text = "I prefer to be a rider most of time but I don't mind "; ObjectID = "LNX-PM-zUK"; */
+"LNX-PM-zUK.text" = "I prefer to be a rider most of time but I don't mind ";
+
+/* Class = "UIButton"; normalTitle = "Yes, I’m in!"; ObjectID = "MYL-DD-JfO"; */
+"MYL-DD-JfO.normalTitle" = "Yes, I’m in!";
+
+/* Class = "UILabel"; text = "MIDDLE NAME (IF YOU HAVE)"; ObjectID = "Nm9-jk-7bN"; */
+"Nm9-jk-7bN.text" = "MIDDLE NAME (IF YOU HAVE)";
+
+/* Class = "UILabel"; text = "to be a driver when there's no match for me"; ObjectID = "P0t-Df-iQ6"; */
+"P0t-Df-iQ6.text" = "to be a driver when there's no match for me";
+
+/* Class = "UILabel"; text = "ALREADY HAVE AN ACCO"; ObjectID = "QGO-ko-ibF"; */
+"QGO-ko-ibF.text" = "ALREADY HAVE AN ACCO";
+
+/* Class = "UILabel"; text = "YEAR OF VEHICLE"; ObjectID = "Qmp-fW-C1h"; */
+"Qmp-fW-C1h.text" = "YEAR OF VEHICLE";
+
+/* Class = "UITextField"; placeholder = "Enter plate number"; ObjectID = "R3u-Om-XpV"; */
+"R3u-Om-XpV.placeholder" = "Enter plate number";
+
+/* Class = "UILabel"; text = "DON’T HAVE AN ACCOUN"; ObjectID = "Rg3-SL-Zy4"; */
+"Rg3-SL-Zy4.text" = "DON’T HAVE AN ACCOUN";
+
+/* Class = "UILabel"; text = "New Transit Changes Your Life"; ObjectID = "S26-6f-gmZ"; */
+"S26-6f-gmZ.text" = "New Transit Changes Your Life";
+
+/* Class = "UILabel"; text = "COLOR"; ObjectID = "SRb-Ii-XD3"; */
+"SRb-Ii-XD3.text" = "COLOR";
+
+/* Class = "UITextField"; placeholder = "Enter phone number"; ObjectID = "T9X-W8-ash"; */
+"T9X-W8-ash.placeholder" = "Enter phone number";
+
+/* Class = "UITextField"; placeholder = "Enter registered email"; ObjectID = "TqT-Qv-MRo"; */
+"TqT-Qv-MRo.placeholder" = "Enter registered email";
+
+/* Class = "UITextField"; placeholder = "Select vehicle color"; ObjectID = "Tqx-Ke-HC2"; */
+"Tqx-Ke-HC2.placeholder" = "Select vehicle color";
+
+/* Class = "UITextField"; placeholder = "Enter vehicle make"; ObjectID = "TzC-2m-PTx"; */
+"TzC-2m-PTx.placeholder" = "Enter vehicle make";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UNs-IV-sCl"; */
+"UNs-IV-sCl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Privacy Policy."; ObjectID = "UTT-xA-KCD"; */
+"UTT-xA-KCD.text" = "Privacy Policy.";
+
+/* Class = "UILabel"; text = "LOGIN"; ObjectID = "Ufh-CV-Xsu"; */
+"Ufh-CV-Xsu.text" = "LOGIN";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "VKt-E8-LDz"; */
+"VKt-E8-LDz.normalTitle" = "+";
+
+/* Class = "UILabel"; text = "& Share The Cost."; ObjectID = "Vw8-QY-vdi"; */
+"Vw8-QY-vdi.text" = "& Share The Cost.";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "W3R-fY-pfQ"; */
+"W3R-fY-pfQ.normalTitle" = "SIGN IN";
+
+/* Class = "UITextField"; placeholder = "Enter middle name"; ObjectID = "ZSs-kU-hMj"; */
+"ZSs-kU-hMj.placeholder" = "Enter middle name";
+
+/* Class = "UITextField"; placeholder = "Registered Email"; ObjectID = "ZVd-iu-Uyn"; */
+"ZVd-iu-Uyn.placeholder" = "Registered Email / Phone Number";
+
+/* Class = "UIButton"; normalTitle = "Male"; ObjectID = "ZXV-s3-0Cf"; */
+"ZXV-s3-0Cf.normalTitle" = "Male";
+
+/* Class = "UIButton"; normalTitle = "Help"; ObjectID = "bRe-VU-wkO"; */
+"bRe-VU-wkO.normalTitle" = "Help";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "dc4-xY-HDt"; */
+"dc4-xY-HDt.normalTitle" = "Next";
+
+/* Class = "UITextField"; placeholder = "Enter email"; ObjectID = "dkd-P7-GA3"; */
+"dkd-P7-GA3.placeholder" = "Enter email";
+
+/* Class = "UITextField"; placeholder = "Enter last name"; ObjectID = "eVQ-ch-Mac"; */
+"eVQ-ch-Mac.placeholder" = "Enter last name";
+
+/* Class = "UITextField"; placeholder = "Enter verification code"; ObjectID = "eXW-h7-P46"; */
+"eXW-h7-P46.placeholder" = "Enter verification code";
+
+/* Class = "UITextField"; placeholder = "Enter first name"; ObjectID = "eZr-oM-dFS"; */
+"eZr-oM-dFS.placeholder" = "Enter first name";
+
+/* Class = "UILabel"; text = "Your private information will not be shared by anyone. We do not run credit check."; ObjectID = "eng-Lr-4uc"; */
+"eng-Lr-4uc.text" = "Your private information will not be shared by anyone. We do not run credit check.";
+
+/* Class = "UILabel"; text = "For secure purposes, your social security number is required for a simple background check\n"; ObjectID = "f59-fe-EEE"; */
+"f59-fe-EEE.text" = "For secure purposes, your social security number is required for a simple background check\n";
+
+/* Class = "UITextField"; placeholder = "Enter first name"; ObjectID = "f7K-sG-QBu"; */
+"f7K-sG-QBu.placeholder" = "Enter first name";
+
+/* Class = "UILabel"; text = "BODY STYLE"; ObjectID = "gOl-0L-F7j"; */
+"gOl-0L-F7j.text" = "BODY STYLE";
+
+/* Class = "UITextField"; placeholder = "Select state"; ObjectID = "hQc-Bv-HK9"; */
+"hQc-Bv-HK9.placeholder" = "Select state";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "iiR-lm-2ol"; */
+"iiR-lm-2ol.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "REGISTERED EMAIL"; ObjectID = "j6H-Yf-Pnt"; */
+"j6H-Yf-Pnt.text" = "REGISTERED EMAIL";
+
+/* Class = "UIButton"; normalTitle = "Acknowledge and Submit"; ObjectID = "jPt-Pk-Hba"; */
+"jPt-Pk-Hba.normalTitle" = "Acknowledge and Submit";
+
+/* Class = "UILabel"; text = "TERMS OF USES "; ObjectID = "kby-MZ-dog"; */
+"kby-MZ-dog.text" = "TERMS OF USES ";
+
+/* Class = "UITextField"; placeholder = "Select vehicle model"; ObjectID = "mDR-au-Y43"; */
+"mDR-au-Y43.placeholder" = "Select vehicle model";
+
+/* Class = "UILabel"; text = "DRIVER LICENSE"; ObjectID = "mbQ-Tp-Rtc"; */
+"mbQ-Tp-Rtc.text" = "DRIVER LICENSE";
+
+/* Class = "UILabel"; text = "FIRST NAME"; ObjectID = "nr8-5z-OeB"; */
+"nr8-5z-OeB.text" = "FIRST NAME";
+
+/* Class = "UILabel"; text = "DATE OF BIRTH"; ObjectID = "oUg-Ya-BcV"; */
+"oUg-Ya-BcV.text" = "DATE OF BIRTH";
+
+/* Class = "UILabel"; text = "GENDER"; ObjectID = "ocg-Tr-fhC"; */
+"ocg-Tr-fhC.text" = "GENDER";
+
+/* Class = "UILabel"; text = "DON’T HAVE AN ACCOUN"; ObjectID = "omI-Ub-I4u"; */
+"omI-Ub-I4u.text" = "DON’T HAVE AN ACCOUN";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "os2-Pz-L6F"; */
+"os2-Pz-L6F.normalTitle" = "Send";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "pfL-NM-hL8"; */
+"pfL-NM-hL8.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Continue With"; ObjectID = "pmq-tK-9Sx"; */
+"pmq-tK-9Sx.text" = "Continue With";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qsj-67-xdf"; */
+"qsj-67-xdf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Verify"; ObjectID = "rHG-Py-LIp"; */
+"rHG-Py-LIp.normalTitle" = "Verify";
+
+/* Class = "UITextField"; placeholder = "Enter driver license number"; ObjectID = "rK6-mz-kjj"; */
+"rK6-mz-kjj.placeholder" = "Enter driver license number";
+
+/* Class = "UILabel"; text = "PASSWORD"; ObjectID = "rg1-D5-lYK"; */
+"rg1-D5-lYK.text" = "PASSWORD";
+
+/* Class = "UILabel"; text = "EMAIL"; ObjectID = "s5V-Nl-Lhk"; */
+"s5V-Nl-Lhk.text" = "EMAIL";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "sJV-uc-PCD"; */
+"sJV-uc-PCD.normalTitle" = "Sign in";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "sna-Zq-007"; */
+"sna-Zq-007.text" = "Facebook";
+
+/* Class = "UILabel"; text = "New Transit Changes Your Life"; ObjectID = "uRE-a5-aYC"; */
+"uRE-a5-aYC.text" = "New Transit Changes Your Life";
+
+/* Class = "UILabel"; text = "Please use a valid phone number for account verification."; ObjectID = "uS6-Fd-MNn"; */
+"uS6-Fd-MNn.text" = "Please use a valid phone number for account verification.";
+
+/* Class = "UILabel"; text = " to reset your password. "; ObjectID = "vK1-fq-Ged"; */
+"vK1-fq-Ged.text" = " to reset your password. ";
+
+/* Class = "UILabel"; text = "LAST NAME"; ObjectID = "vwr-MA-sKQ"; */
+"vwr-MA-sKQ.text" = "LAST NAME";
+
+/* Class = "UILabel"; text = "FIRST NAME"; ObjectID = "xFi-hh-JEP"; */
+"xFi-hh-JEP.text" = "FIRST NAME";
+
+/* Class = "UITextField"; placeholder = "Enter last name"; ObjectID = "xct-JV-Ibn"; */
+"xct-JV-Ibn.placeholder" = "Enter last name";
+
+/* Class = "UILabel"; text = "Help My Neighbors"; ObjectID = "y9Y-cD-KhN"; */
+"y9Y-cD-KhN.text" = "Help My Neighbors";
+
+/* Class = "UIButton"; normalTitle = "Female"; ObjectID = "yb0-cx-xSJ"; */
+"yb0-cx-xSJ.normalTitle" = "Female";
+
+/* Class = "UILabel"; text = "DON’T HAVE AN ACCOUN"; ObjectID = "yjK-zH-va3"; */
+"yjK-zH-va3.text" = "DON’T HAVE AN ACCOUN";
+
+/* Class = "UILabel"; text = "VEHICLE MAKE"; ObjectID = "zKL-YC-KNY"; */
+"zKL-YC-KNY.text" = "VEHICLE MAKE";

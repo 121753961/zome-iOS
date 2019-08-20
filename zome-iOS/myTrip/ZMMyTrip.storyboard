@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Trip View Controller-->
+        <scene sceneID="Efz-Fp-NAr">
+            <objects>
+                <viewController storyboardIdentifier="MyTripVC" id="eHR-YZ-c7w" customClass="ZMMyTripViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Gg-SP-Rht">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJz-cq-Z2p">
+                                <rect key="frame" x="0.0" y="20" width="375" height="190"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vuz-Pg-ENx" userLabel="NavView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <subviews>
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGg-9V-RNg">
+                                                <rect key="frame" x="0.0" y="12" width="375" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQN-L1-9qu" userLabel="backBtn">
+                                                <rect key="frame" x="15" y="11.5" width="22" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="22" id="Vg0-Ds-AIi"/>
+                                                    <constraint firstAttribute="height" constant="22" id="d4R-hn-sgH"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="order_menu"/>
+                                                <connections>
+                                                    <action selector="openEvent:" destination="eHR-YZ-c7w" eventType="touchUpInside" id="Qki-e3-WRw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbR-vb-5bc" userLabel="closeBtn">
+                                                <rect key="frame" x="258" y="12.5" width="102" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="Ggu-4c-Dtf"/>
+                                                    <constraint firstAttribute="width" constant="102" id="rmc-Gf-c3l"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <state key="normal" title="Upcoming Trips"/>
+                                                <connections>
+                                                    <action selector="navRigthAction:" destination="eHR-YZ-c7w" eventType="touchUpInside" id="4D8-6G-AQi"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mytrip_time" translatesAutoresizingMaskIntoConstraints="NO" id="naV-wR-hMY">
+                                                <rect key="frame" x="247" y="16.5" width="11" height="11"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="11" id="D30-ce-qS4"/>
+                                                    <constraint firstAttribute="height" constant="11" id="MHG-uG-b9m"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="SGg-9V-RNg" firstAttribute="leading" secondItem="vuz-Pg-ENx" secondAttribute="leading" id="5uZ-vc-AzN"/>
+                                            <constraint firstAttribute="trailing" secondItem="XbR-vb-5bc" secondAttribute="trailing" constant="15" id="8JB-J3-ZYd"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="BFA-V5-aMu"/>
+                                            <constraint firstItem="XbR-vb-5bc" firstAttribute="leading" secondItem="naV-wR-hMY" secondAttribute="trailing" id="Iqx-h1-VHg"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="Pd5-jA-xKD"/>
+                                            <constraint firstItem="fQN-L1-9qu" firstAttribute="leading" secondItem="vuz-Pg-ENx" secondAttribute="leading" constant="15" id="SgP-Bs-r30"/>
+                                            <constraint firstItem="naV-wR-hMY" firstAttribute="centerY" secondItem="vuz-Pg-ENx" secondAttribute="centerY" id="TPY-wh-w4D"/>
+                                            <constraint firstItem="XbR-vb-5bc" firstAttribute="centerY" secondItem="vuz-Pg-ENx" secondAttribute="centerY" id="Vd7-vq-jGG"/>
+                                            <constraint firstAttribute="trailing" secondItem="SGg-9V-RNg" secondAttribute="trailing" id="fjx-P2-Gdc"/>
+                                            <constraint firstItem="fQN-L1-9qu" firstAttribute="centerY" secondItem="vuz-Pg-ENx" secondAttribute="centerY" id="hdV-wn-SMo"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="iAG-zN-g83"/>
+                                            <constraint firstAttribute="height" constant="44" id="qyi-m4-yXp"/>
+                                            <constraint firstItem="SGg-9V-RNg" firstAttribute="centerY" secondItem="vuz-Pg-ENx" secondAttribute="centerY" id="zkD-M3-N2h"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="91L-We-xoH" userLabel="btnView">
+                                        <rect key="frame" x="30" y="138" width="315" height="32"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZ4-Rk-7TW">
+                                                <rect key="frame" x="0.0" y="0.0" width="147.5" height="32"/>
+                                                <state key="normal" title="As A Rider" backgroundImage="mytrip_btn_bg">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" title="As A Rider" backgroundImage="mytrip_btn_bg_s">
+                                                    <color key="titleColor" red="0.1333333333" green="0.5568627451" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7p-Jh-wUt">
+                                                <rect key="frame" x="167.5" y="0.0" width="147.5" height="32"/>
+                                                <state key="normal" title="As A Driver" backgroundImage="mytrip_btn_bg">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" backgroundImage="mytrip_btn_bg_s">
+                                                    <color key="titleColor" red="0.1333333333" green="0.5568627451" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="H7p-Jh-wUt" secondAttribute="trailing" id="DW6-TA-lzB"/>
+                                            <constraint firstItem="AZ4-Rk-7TW" firstAttribute="leading" secondItem="91L-We-xoH" secondAttribute="leading" id="d9f-SR-hk8"/>
+                                            <constraint firstItem="H7p-Jh-wUt" firstAttribute="width" secondItem="AZ4-Rk-7TW" secondAttribute="width" id="jbE-k0-oDT"/>
+                                            <constraint firstAttribute="bottom" secondItem="H7p-Jh-wUt" secondAttribute="bottom" id="nwY-Xr-g4p"/>
+                                            <constraint firstItem="AZ4-Rk-7TW" firstAttribute="top" secondItem="91L-We-xoH" secondAttribute="top" id="oIv-VG-ooY"/>
+                                            <constraint firstItem="H7p-Jh-wUt" firstAttribute="leading" secondItem="AZ4-Rk-7TW" secondAttribute="trailing" constant="20" id="vuv-pt-bW5"/>
+                                            <constraint firstAttribute="height" constant="32" id="y47-Sb-2io"/>
+                                            <constraint firstItem="H7p-Jh-wUt" firstAttribute="top" secondItem="91L-We-xoH" secondAttribute="top" id="yUE-vm-dKE"/>
+                                            <constraint firstAttribute="bottom" secondItem="AZ4-Rk-7TW" secondAttribute="bottom" id="zFd-Rj-4r7"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My History Trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIj-gR-GDJ">
+                                        <rect key="frame" x="115" y="83.5" width="145" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1333333333" green="0.5568627451" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="91L-We-xoH" firstAttribute="leading" secondItem="EJz-cq-Z2p" secondAttribute="leading" constant="30" id="1Os-xp-eF0"/>
+                                    <constraint firstAttribute="bottom" secondItem="91L-We-xoH" secondAttribute="bottom" constant="20" id="27g-HQ-Erq"/>
+                                    <constraint firstAttribute="trailing" secondItem="91L-We-xoH" secondAttribute="trailing" constant="30" id="AkB-mP-1SN"/>
+                                    <constraint firstItem="FIj-gR-GDJ" firstAttribute="centerX" secondItem="EJz-cq-Z2p" secondAttribute="centerX" id="epO-67-Weu"/>
+                                    <constraint firstAttribute="trailing" secondItem="vuz-Pg-ENx" secondAttribute="trailing" id="ja3-V2-PIl"/>
+                                    <constraint firstAttribute="height" constant="190" id="lsJ-X4-2L8"/>
+                                    <constraint firstItem="FIj-gR-GDJ" firstAttribute="centerY" secondItem="EJz-cq-Z2p" secondAttribute="centerY" id="w65-fc-2a6"/>
+                                    <constraint firstItem="vuz-Pg-ENx" firstAttribute="leading" secondItem="EJz-cq-Z2p" secondAttribute="leading" id="wW4-It-a9t"/>
+                                    <constraint firstItem="vuz-Pg-ENx" firstAttribute="top" secondItem="EJz-cq-Z2p" secondAttribute="top" id="wzg-sW-bHe"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ckM-h8-lzi">
+                                <rect key="frame" x="0.0" y="210" width="375" height="457"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="eHR-YZ-c7w" id="dHu-xL-JPA"/>
+                                    <outlet property="delegate" destination="eHR-YZ-c7w" id="DIT-Sp-aIP"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ir0-Fb-zkv" firstAttribute="trailing" secondItem="ckM-h8-lzi" secondAttribute="trailing" id="1TM-qh-Auj"/>
+                            <constraint firstItem="EJz-cq-Z2p" firstAttribute="leading" secondItem="ir0-Fb-zkv" secondAttribute="leading" id="D1B-As-IdJ"/>
+                            <constraint firstItem="EJz-cq-Z2p" firstAttribute="top" secondItem="ir0-Fb-zkv" secondAttribute="top" id="IIN-Ei-7R0"/>
+                            <constraint firstItem="ir0-Fb-zkv" firstAttribute="trailing" secondItem="EJz-cq-Z2p" secondAttribute="trailing" id="MJ4-pP-SUk"/>
+                            <constraint firstItem="ckM-h8-lzi" firstAttribute="leading" secondItem="ir0-Fb-zkv" secondAttribute="leading" id="aGt-Jb-Vag"/>
+                            <constraint firstItem="ckM-h8-lzi" firstAttribute="top" secondItem="EJz-cq-Z2p" secondAttribute="bottom" id="ce2-vG-ik3"/>
+                            <constraint firstItem="ir0-Fb-zkv" firstAttribute="bottom" secondItem="ckM-h8-lzi" secondAttribute="bottom" id="gBk-Gs-eqn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ir0-Fb-zkv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b5Z-Lc-kiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="23.838080959520241"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mytrip_btn_bg" width="284" height="64"/>
+        <image name="mytrip_btn_bg_s" width="284" height="64"/>
+        <image name="mytrip_time" width="20" height="20"/>
+        <image name="order_menu" width="42" height="34"/>
+    </resources>
+</document>

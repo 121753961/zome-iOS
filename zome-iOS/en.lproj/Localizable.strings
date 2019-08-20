@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  zome-iOS
+
+  Created by CFW on 2017/12/11.
+  Copyright © 2017年 KunagBing. All rights reserved.
+*/
+
+"LOGIN_SUCCESS" = "LOGIN SUCCESS";
+
+// SignUp
+
+"FirstNameCan'tBeEmpty" = "firstName Can't be empty";
+
+"LastNameCan'tBeEmpty" = "lastName Can't be empty";
+
+"EmailCan'tBeEmpty" = "email Can't be empty";
+
+"PasswordCan'tBeEmpty" = "password Can't be empty";
+
+"IncorrectMailboxFormat" = "Incorrect mailbox format";
+
+
+
+
+// CodeLog
+"LoginaNameCan'tBeEmpty" = "loginaName Can't be empty";
+
+"PhoneCan'tBeEmpty" = "phone Can't be empty";
+
+"VerifySmsCodeCan'tBeEmpty" = "verifySmsCode Can't be empty";
+
+"MobilePhoneFormatError" = "mobile phone format error";
+
+// Payment
+"ZipCodeCan'tBeEmpty" = "zipCode Can't be empty";
+
+"DateCan'tBeEmpty" = "date Can'tBeEmpty";
+
+// Driver
+"BrandCan'tBeEmpty" = "brand Can't be empty";
+
+"VehicleModelCan'tBeEmpty" = "vehicleModel Can't be empty";
+
+"BodyStyleCan'tBeEmpty" = "bodyStyle Can't be empty";
+
+"YearOfVehicleCan'tBeEmpty" = "yearOfVehicle Can't be empty";
+
+"PlateNumberCan'tBeEmpty" = "plateNumber Can't be empty";
+
+"ColorCan'tBeEmpty" = "color Can't be empty";
+
+"MiddleNameCan'tBeEmpty" = "middleName Can't be empty";
+
+"DateOfBirthCan'tBeEmpty" = "dateOfBirth Can't be empty";
+
+"DriverLicenseCan'tBeEmpty" = "driverLicense Can't be empty";
+
+"LicenseStateCan'tBeEmpty" = "licenseState Can't be empty";
+
+"NnsCan'tBeEmpty" = "nns Can't be empty";
+
+"LocationServiceMsg" = "Location service is unopened";
+
+"LocationServiceSubMsg" = "Please open the service in the system settings";
+
+"Setting" = "setting";
+
+"CVVFormatErrorr" = "CVV format error";
+
+"DateFormatErrorr" = "Date format error";
+
+"CardNumberCan'tBeEmpty" = "CardNumber Can't be empty";
+
+"AddFailure" = "Add failure";
+
+
+
+
+
+// Common
+"NetworkError" = "Network connection error";
+

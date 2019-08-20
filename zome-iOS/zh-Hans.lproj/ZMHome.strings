@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "TO BE A DRIVER"; ObjectID = "8A1-O5-Kam"; */
+"8A1-O5-Kam.text" = "司机";
+
+/* Class = "UILabel"; text = "AS A RIDER"; ObjectID = "Fik-NJ-gyX"; */
+"Fik-NJ-gyX.text" = "乘客";
+
+/* Class = "UIButton"; normalTitle = "My Driver Profile"; ObjectID = "QeF-av-WIm"; */
+"QeF-av-WIm.normalTitle" = "司机简介";
+
+/* Class = "UIButton"; normalTitle = "Take A Ride"; ObjectID = "bX7-3a-UiE"; */
+"bX7-3a-UiE.normalTitle" = "乘坐";
+
+/* Class = "UILabel"; text = "For more details, please contact us:\nsupport@gozome.net"; ObjectID = "h7g-FG-UxW"; */
+"h7g-FG-UxW.text" = "更多详情，请联系我们： nsupport@gozome.net";
+
+/* Class = "UILabel"; text = "Thank You For Join Us, Your\nApplication Is Still Verifying"; ObjectID = "iWn-6u-x9a"; */
+"iWn-6u-x9a.text" = "谢谢你加入我们，你您的信息正在核实";
